@@ -1,0 +1,10 @@
+-- pan
+d1
+  $ s "hc*16" # gain 1
+  # pan (range 0 1 sine)
+
+-- binaural
+d1
+  $ s "hc*16" # gain 1
+  # theta (range 1 (-1) sine)
+  # phi (range 1 (-1) (slow 3 $ sine))
