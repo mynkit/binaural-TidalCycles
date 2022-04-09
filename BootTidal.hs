@@ -76,6 +76,11 @@ let getState = streamGet tidal
     setB = streamSetB tidal
 :}
 
+:{
+theta = pF "theta"
+phi = pF "phi"
+:}
+
 :set prompt "tidal> "
 :set prompt-cont ""
 
